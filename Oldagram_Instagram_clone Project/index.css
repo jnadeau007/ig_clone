@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background:#C6C6C6;
+    font: Source Sans Pro;
 }
 
 .app-content{
