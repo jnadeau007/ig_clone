@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:#C6C6C6;
+}
+
+.app-content{
+    width: 375px;
+    margin: auto; 
+}
+
+header{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+}
+
+.avatar-head{
+    width: 34px;
+    height:34px;
+    border-radius: 50%;
+    padding-right: 15px;
+}
+
+.logo{
+  width: 127px;
+  height: 34px;  
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+hr{
+   color: 1px solid #000000; 
+   margin-top: -5px;
+} 
+
+.logo-imgs{
+    margin-bottom: 20px;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px; 
+    
+}
+
+.logo-imgs, .post, .heading{
+        background-color: #FFFFFF;
+}
+
+.logo-section{
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    width: 375px;
+    background: #FFFFFF
+}
+
+#logo{
+    height: 34px;
+    width: 127px;
+    background: #FFFFFF;
+}
+
+.num-likes, .comment-section, .logo-section{
+    padding-left: 15px;
+}
+
+.avatar{
+    width: 34px;
+    height:34px;
+    border-radius: 50%;
+}
+
+
+.post-heading{
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+    width: 348px;
+    height: 34px;
+    padding-top: 15px;
+}
+
+.profile-info{
+    line-height: 5px;
+    margin-top: -8px;
+}
+
+.profile-name, .num-likes, .comment-profile-name{
+    font-weight: bold;
+}
+
+span, p{
+    font-size: 13px;
+}
+
+.post-photo{
+    height: 375px;
+    width: 375px;
+    padding: 15px 0;
+}
+
+.like, .comment, .dm{
+    width: 24px;
+    height: 23px;
+}
+
+.icons-section{
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+}
+
+.post{
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+.post-info{
+    width: 350px;
+    padding-bottom: 15px;
+}
+
+
+
